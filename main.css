@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#012E40;
+    padding: 16px;
+    
+}
+
+header h1 {
+     font-family: 'Tilt Prism', cursive;
+     color:#F2E3D5;
+     font-weight: normal;
+     font-size: 50px;
+}
+
+body {
+    font-family: 'Shantell Sans', cursive;
+    background-color: #3CA6A6;
+    color:#F2E3D5;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:#F2E3D5;
+    padding-right: 8px;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#grid-praias img {
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ffc;
+}
+
+#grid-praias h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal; 
+    font-size: 30px;
+    
+}
+
+#grid-praias h3, .contact-methods h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.content {
+    display: flex;
+}
+
+p {
+    margin-left: 15px;
+    margin-top: 18px;
+    font-size: 20px;
+    
+}
+
+#contact h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:'Tilt Warp', cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, textarea, button {
+    display: block;
+    width: 320px;
+    margin-bottom:8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #012E40;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#0c92c7;
+}
+
+input:focus, textarea:focus {
+    outline-color: #0c92c7;
+}
+
+
+
+
+
